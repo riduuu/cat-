@@ -1,0 +1,233 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin: 50px 0px;
+}
+
+/* .div1 start */
+.div1{
+    max-width: 80%;
+    margin:40px 40px 20px 100px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    padding: 5px;
+}
+ 
+.div2 img{
+    width: 100%;
+    box-shadow: 0px 0px 2px rgb(20, 114, 196);
+    
+}
+.div3{
+    display: inline-block;
+}
+.div3 h4{
+    margin: 10px 10px 10px 0px;
+    font-size: 50px;
+}
+.div3 .p1{
+    margin: 10px 10px 0 0px;
+    font-size: 20px;
+}
+.div3 i{
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    color: rgb(20, 114, 196);
+}
+.div3 .p2{
+    margin: -35px 0px 0 70px ;
+}
+.div3 .p3{
+    margin: -38px 0px 0 70px
+}
+
+.div4 input {
+    background-color: rgb(20, 114, 196);
+    color:white;
+    padding: 1px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    
+    
+}
+.div4 :hover{
+    background-color: rgb(184, 42, 42);
+    color: rgb(255, 214, 139);
+    transition: 0.5s;
+}
+
+/* .div1 End */
+
+/* services start  */
+.services{
+    position: absolute;
+    display: inline-block;
+    margin-left: 520px;
+    margin-top: 30px;
+    
+}
+.services h4{
+    font-size: 25px;
+    background-color: rgb(80, 136, 186);
+    color: whitesmoke;
+    padding: 5px 125px;
+    box-shadow: 0px 0px 5px rgb(20, 114, 196);
+}
+.services :hover{
+    background-color: rgb(184, 42, 42);
+    color: rgb(255, 214, 139);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px yellow;
+}
+/* services end */
+
+/* section start  */
+
+.section{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin:125px 40px 100px 100px;
+    padding: 5px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    column-gap: 30px;
+}
+
+.section .one img{
+    width: 100%;
+    height: 270px;
+    
+}
+
+.section .two img{
+    width: 100%;
+    height: 270px;
+   
+}
+
+.section .three img{
+    width: 100%;
+    height: 270px;
+}
+
+.section .one {
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(20, 114, 196);
+    padding-bottom: 10px;
+}
+.section .two{
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(20, 114, 196);
+}
+.section .three{
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(20, 114, 196);
+}
+.section .one h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.section .two h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.section .three h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.section .one > p{
+    font-size: 20px;
+    
+}
+.section .two > p{
+    font-size: 20px;
+    
+}
+.section .three > p{
+    font-size: 20px;
+    
+}
+.section .one > a{
+    background-color: rgb(237, 240, 239);
+    color: rgb(20, 114, 196);
+    border-radius: 100px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.section .two > a{
+    background-color: rgb(237, 240, 239);
+    color: rgb(20, 114, 196);
+    border-radius: 100px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.section .three > a{
+    background-color: rgb(237, 240, 239);
+    color: rgb(20, 114, 196);
+    border-radius: 100px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.section .one > a:hover{
+    background-color: rgb(184, 42, 42);
+    color: rgb(255, 214, 139);
+    transition: 0.5s;
+}
+.section .two > a:hover{
+    background-color: rgb(184, 42, 42);
+    color: rgb(255, 214, 139);
+    transition: 0.5s;
+}
+.section .three > a:hover{
+    background-color: rgb(184, 42, 42);
+    color: rgb(255, 214, 139);
+    transition: 0.5s;
+}
+.four{
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 800px;
+    margin-left: 100px;
+    padding: 5px;
+    padding-bottom: 150px;
+    grid-gap: 150px;
+}
+.five h4{
+    position: relative;
+    font-size: 50px;
+    bottom: 80px;
+
+}
+.five p{
+    position: relative;
+    font-size: 20px;
+    bottom: 120px;
+}
+.lastimg img{
+    width: 80%;
+    height: 90%;
+    box-shadow:0px 0px 2px rgb(0, 0, 0);
+}
+/* section End  */
+
+
